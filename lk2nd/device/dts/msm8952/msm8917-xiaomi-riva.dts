@@ -18,6 +18,8 @@
 
 	lk2nd,match-panel;
 	panel {
+                compatible = "xiaomi,riva-panel", "lk2nd,panel";
+
 		qcom,mdss_dsi_hx8394f_boe_c3b_720p_video {
                         compatible = "xiaomi,riva-hx8394f-boe";
                         // touchscreen-compatible = "edt,edt-ft5306";
